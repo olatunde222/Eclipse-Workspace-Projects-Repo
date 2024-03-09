@@ -1,0 +1,24 @@
+package com.opencart.featureRunner;
+
+import org.junit.runner.RunWith;
+import org.testng.annotations.DataProvider;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(glue = {"com.opencart.stepdefinationsfiles"},
+				plugin= {"pretty", "html:/target/cumcumber-report.html", "json:target/cucmber.json"}, 
+				monochrome = true,
+				publish = true)
+
+public class TestRunner extends AbstractTestNGCucumberTests {
+
+	@Override
+	@DataProvider(parallel = true)
+	public Object[][] scenarios(){
+		return super.scenarios();
+	}
+	
+}

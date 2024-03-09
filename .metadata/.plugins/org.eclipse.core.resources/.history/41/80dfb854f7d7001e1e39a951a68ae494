@@ -1,0 +1,63 @@
+package com.opencart.stepdefinationsfiles;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class LoginStepDef {
+	@Given("I am on the openCart login page")
+	public void i_am_on_the_open_cart_login_page() {
+	    
+	}
+
+	@Given("I have entered a valid username and password")
+	public void i_have_entered_a_valid_username_and_password() {
+	    
+	}
+
+	@When("I click on the login button")
+	public void i_click_on_the_login_button() {
+	   
+	}
+
+	@Then("I should be logged in successfully")
+	public void i_should_be_logged_in_successfully() {
+
+	}
+
+	@Given("I have entered invalid invalid@gmail1.co and invalidPassword1")
+	public void i_have_entered_invalid_invalid_gmail1_co_and_invalid_password1() {
+	    
+	}
+
+	@Then("I should see an error message indicating {string}")
+	public void i_should_see_an_error_message_indicating(String string) {
+	    
+	}
+
+	@Given("I have entered invalid invalid@gmail2.co and invalidPassword2")
+	public void i_have_entered_invalid_invalid_gmail2_co_and_invalid_password2() {
+	    
+	}
+
+	@Given("I have entered invalid invalid@gmail3.co and invalidPassword3")
+	public void i_have_entered_invalid_invalid_gmail3_co_and_invalid_password3() {
+	    
+	}
+
+	@Given("I have entered invalid invalid@gmail4.co and invalidPassword4")
+	public void i_have_entered_invalid_invalid_gmail4_co_and_invalid_password4() {
+	    
+	}
+
+	@When("I click on the {string} link")
+	public void i_click_on_the_link(String string) {
+	    
+	}
+
+	@Then("I should be redirected to the reset page")
+	public void i_should_be_redirected_to_the_reset_page() {
+	    
+	}
+
+}
